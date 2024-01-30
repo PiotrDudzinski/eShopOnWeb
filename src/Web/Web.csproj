@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="compilerconfig.json; appsettings.Development.json" />
-    <None Include="compilerconfig.json;appsettings.Development.json">
+    <Content Remove="compilerconfig.json; appsettings.Development.json;appsettings.Docker.json;appsettings.json" />
+    <None Include="compilerconfig.json;appsettings.Development.json;appsettings.Docker.json;appsettings.json">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
